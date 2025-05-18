@@ -1,1 +1,138 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+
+body {
+    font-family: "apercu", calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7dc98f ;
+}
+html, body {
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+color:#0000008f;
+    font-size: 50px;
+}
+h2 {
+    margin: 0;
+}
+p{
+text-indent: 30px;
+    text-justify: auto;
+    margin: 0 5px 0 20px;
+}
+
+
+div.content {
+    text-indent: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 22px;
+    width: clamp(300px, 90vw, 1600px);
+    border-radius: 16px;
+    font-weight: 550;
+    color: #1f6b2f;
+    background-color: #23c223 ;
+    padding: 20px;
+    box-shadow: 4px 4px 4px #505050;
+    text-justify: auto;
+}
+
+p#about{
+    text-align: center;
+    font-size: 32px;
+
+}
+.about{
+    text-indent: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 22px;
+    width: clamp(300px, 90vw, 1100px);
+    border-radius: 16px;
+    font-weight: 550;
+    color: #267c2d;
+    background-color: #23c223 ;
+    padding: 20px;
+    box-shadow: 4px 4px 4px #505050;
+    text-justify: auto;
+}
+.content_product{
+    min-height: 300px;
+        display: block;
+    width:clamp(100px, 60vw, 300px);
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 16px;
+    box-shadow: 4px 4px 4px #000000;
+
+}
+
+header {
+
+    display: flex;
+justify-content: flex-end;
+align-items: center;
+padding: 0 4%;
+background-color: #84bd55;
+    overflow: auto;
+    box-shadow: 4px 4px 4px #505050;
+}
+
+ li {
+     display :inline-block;
+    list-style: none;
+    padding:0 5px;
+ }
+
+
+  .navbar  #navtitle{
+text-align: center;
+        font-weight: 600;
+        color: #121811;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+#current{
+    text-decoration-line: underline;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 26px;
+padding: 0;
+    margin:10px;
+    color: #2ba113;
+}
+
+#height_container{
+    min-height: 100%;
+}
+#main{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: auto;
+}
+#footer {
+    background-color: #84bd55;
+    padding-top: 20px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 250;
+    color: #000000;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

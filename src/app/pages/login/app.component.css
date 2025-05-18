@@ -1,0 +1,53 @@
+
+
+h1 {
+
+    text-align: center;
+    color: #247a24;
+    font-size: 54px;
+
+}
+
+h2 {
+
+    text-align: center;
+
+    margin: 16px;
+
+}
+
+
+
+
+
+
+
+    p {
+
+        text-align: justify;
+
+        line-height: 1.5;
+
+        margin-bottom: 10px;
+
+    }
+
+
+
+
+
+
+
+    img {
+
+        min-width: min(400px, 100%);
+
+        width: 80%;
+
+        margin-bottom: 10px;
+
+    }
+
+
+
+}

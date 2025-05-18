@@ -1,5 +1,5 @@
 import { TestBed } from '@angular/core/testing';
-import { AppComponent } from './components/appcomponent/app.component';
+import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -14,10 +14,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'Pál gazda boltja' title`, () => {
+  it(`should have the 'zoldsegrendelooldal' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Pál gazda boltja');
+    expect(app.title).toEqual('zoldsegrendelooldal');
   });
 
   it('should render title', () => {
